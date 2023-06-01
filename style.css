@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+}
+
+.container{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 48, 48);
+}
+
+.container .heading{
+    margin-left: 14px;
+    padding-top: 6px;
+}
+
+.container .items{
+    display: flex;
+    margin-top: 15px;
+}
+
+.container .items ul{
+    list-style:none;
+    display: flex;
+}
+.container .items ul li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: rgb(204, 197, 197);
+}
+.about-container{
+  
+    display: flex;
+    background-color: rgb(207, 201, 201)
+}
+
+.about-container .left{
+    width: 50%;
+    
+  
+
+}
+
+.image1{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+
+.about-container .right{
+    height: 400px;
+    width: 50%;
+    margin-top: 150px;
+
+    
+}
+.about-container .about-right{
+    margin:auto;
+    text-align: center;
+}
+
+.about-right .col{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.col div{
+    justify-content: center;
+    margin: 12px;
+    
+}
+
+.col input{
+    height: 40px;
+    width: 40px;
+    display: block;
+    text-align: center;
+ 
+}
+
+.form-container{
+    display: flex;
+    width: 900px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(207, 201, 201);
+    width: 100%;
+    
+}
+.form-container form{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+form label{
+    display: inline-block;
+    margin: 8px;
+    width: 140px;
+
+}
+
+form input, select{
+    outline: none;
+}
+
+.btn{
+    display: flex;
+ 
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.end-of-this{
+    background-color:rgb(50, 48, 48) ;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.end-of-this input{
+    outline: none;
+}
+
+.btn1{
+    margin-top: 20px;
+
+}
+
+.end-of-this .left , .right{
+    height: 80px;
+    margin:50px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.endHeading , .endpara ,.heading {
+    color: rgb(204, 197, 197);
+}
